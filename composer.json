@@ -1,0 +1,22 @@
+{
+    "name": "stadline/monolog-html-reversed-formatter",
+    "description": "this formatter displays the logs in reverse chronological order",
+    "keywords": ["monolog", "log", "html", "formatter", "html formatter"],
+    "homepage": "https://github.com/stadline/monolog-html-reversed-formatter",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Stadline",
+			"email": "contact@stadline.com",
+            "homepage": "http://www.stadline.com",
+            "role": "Company"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "monolog/monolog": "~1.6"
+    },
+    "autoload": {
+        "psr-0": {"Monolog": "src/"}
+    }
+}
